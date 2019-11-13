@@ -1,0 +1,32 @@
+.Base {
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    box-shadow: 0 0 10px 0 black;
+    z-index: 1;
+    transition-property: left, top;
+    transition-duration: .2s;
+    transition-timing-function: linear;
+    cursor: pointer;
+}
+
+.Red {
+    background-color: red;
+}
+
+.Red:hover {
+    background-color: #b90000;
+}
+
+.Green {
+    background-color: green;
+}
+
+.Blue {
+    background-color: blue;
+}
+
+.Purple {
+    background-color: purple;
+}
