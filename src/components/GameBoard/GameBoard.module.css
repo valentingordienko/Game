@@ -1,0 +1,28 @@
+.main {
+    display: grid;
+    grid-area: GameBoard;
+    background-color: ghostwhite;
+    border: 2px solid lightslategray;
+    padding: 2px;
+    grid-template-columns: repeat(17, 50px);
+    grid-template-rows: repeat(17, 50px);
+    grid-gap: 1px;
+    grid-template-areas:
+            '. . . . b35 b34 b33 b32 b31 . . . . . . . .'
+            '. . . . . . . r30 r29 r28 . . . . . . .'
+            '. . . . . . . r31 f31 r27 . . . . . . .'
+            '. . . . . . h05 r32 f32 r26 . . . . . . .'
+            '. . . . . . . r33 f33 r25 h04 . . . . . b25'
+            '. . . . . . . r34 f34 r24 . . . . . . b24'
+            '. . . . h06 . . r35 f35 r23 . . . h03 . . b23'
+            '. r42 r41 r40 r39 r38 r37 r36 p30 r22 r21 r20 r19 r18 r17 r16 b22'
+            'b41 r43 f41 f42 f43 f44 f45 p40 . p20 f25 f24 f23 f22 f21 r15 b21'
+            'b42 r44 r45 r46 r47 r48 r49 r50 p10 r08 r09 r10 r11 r12 r13 r14 .'
+            'b43 . . h07 . . . r51 f15 r07 . . h02 . . . .'
+            'b44 . . . . . . r52 f14 r06 . . . . . . .'
+            'b45 . . . . . h08 r53 f13 r05 . . . . . . .'
+            '. . . . . . . r54 f12 r04 h01 . . . . . .'
+            '. . . . . . . r55 f11 r03 . . . . . . .'
+            '. . . . . . . r56 r01 r02 . . . . . . .'
+            '. . . . . . . . b11 b12 b13 b14 b15 . . . .';
+}
