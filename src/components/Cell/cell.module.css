@@ -1,0 +1,30 @@
+.main {
+    position: relative;
+    border: 0 solid #282c34;
+    cursor: pointer;
+}
+
+.road {
+    background-color: #09d3ac;
+}
+
+.finish {
+    background-color: yellow;
+}
+
+.prison, .house {
+    background-color: #09d3ac;
+    filter: brightness(85%)
+}
+
+.base {
+    background-color: cornflowerblue;
+}
+
+.road:hover, .finish:hover, .prison:hover, .house:hover, .base:hover {
+    filter: brightness(75%)
+}
+
+.clicked {
+    background-color: aqua;
+}
